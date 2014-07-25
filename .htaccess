@@ -1,0 +1,15 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond /home/content/12/9465412/html/wp-content/sitemaps%{REQUEST_URI} -f
+RewriteRule \.xml(\.gz)?$ /wp-content/sitemaps%{REQUEST_URI} [L]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

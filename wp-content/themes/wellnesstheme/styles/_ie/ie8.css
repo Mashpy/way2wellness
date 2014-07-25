@@ -1,0 +1,14 @@
+/* ELEGANCE - Fading Slider Fix
+-------------------------------------------------------------- */
+.fading_slider #slider_module_inner .floating_slide{background:none!important;}
+.fading_slider #slider_module_inner.floating_slide{background:url(../../images/sliders/floating.png) bottom right no-repeat;}
+
+/* Shadow Alt
+-------------------------------------------------------------- */
+.tabs_vertical li a,.featured_tabs li a{background:url(../../images/shortcodes/inset_line3.png) left bottom repeat-x;}
+
+/* Opacity
+-------------------------------------------------------------- */
+.transparent_border{filter:alpha(opacity=15);}
+.slider_nav_thumb .slider_nav a {filter:alpha(opacity=60);}
+.slider_nav_thumb .slider_nav a:hover {filter:alpha(opacity=100);}
