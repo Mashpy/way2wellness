@@ -19,11 +19,9 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php mysite_head(); ?>
 <?php wp_head(); ?>
-<meta property="og:title" content="Way 2 Wellness" />
+
 <meta property="og:type" content="company" />
 <meta property="og:site_name" content="Way 2 Wellness" />
-<meta property="og:url" content="http://way2wellness.com/" />
-<meta property="og:image" content="http://way2wellness.com/wp-content/uploads/2012/06/logoside11.png" />
 <meta property="fb:admins" content="688218332" />
 <!-- HitTail Code -->
 <script type="text/javascript">
